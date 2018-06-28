@@ -1,0 +1,666 @@
+/*
+**************
+*body
+**************
+*/
+body
+{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+/*
+**************
+*header
+**************
+*/
+h1 {
+  color: #8AD124;
+  text-transform: lowercase;
+  text-decoration: none;
+  position: relative;
+  left: 20px;
+  top: -25px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: bold;
+  font-size: 34px ;
+  letter-spacing: -2px;
+  float:left;
+}
+h1 a{
+  text-decoration: none;
+  color: #8AD124 ;
+}
+/*
+**************
+*navigation
+**************
+*/
+nav main-menu
+{
+  float: right;
+}
+nav li
+{ 
+	display: inline;
+	font-family:  DinotCondBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+	text-transform: uppercase;
+	color: black;
+	font-size: 30px ;
+  text-align: center;
+	letter-spacing: -1px;
+  position: relative;
+  top: 0px;
+  left: 650px;
+  margin-right: 10px;
+  line-height: 59px;
+}
+ul a
+{
+	text-decoration: none;
+	color: black;
+  cursor: pointer;
+}
+ul a:hover
+{
+	text-decoration: underline;
+	color: black;
+}
+
+/*
+*********
+slider
+*********
+*/
+.slider-img
+{
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.slider-text
+{
+  position: relative;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 100px;
+  font-family: sans-serif;
+  font-style: bold;
+}
+.center 
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+/*
+********
+titleone
+*********
+*/
+.one
+{
+  color: #000;
+  text-align: center;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 24px;
+  line-height: 24px;
+  margin: auto;
+  position: relative;
+  text-transform: uppercase;
+}
+
+/*
+********
+titletwo
+*********
+*/
+.two
+{
+  color: #aeadad;
+  text-align: center;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-size: 35px;
+  line-height: 35px;
+  margin: auto;
+  position: relative;
+  letter-spacing: -2.1px;
+  max-width: 600px;
+  font-weight: 200;
+}
+/*
+**************
+*buttom link
+**************
+*/
+.link
+{
+  background-color: #8AD124;
+  border: 1px solid;
+  border-radius: 38px;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  position: relative;
+}
+/*
+**************
+*Pictures
+**************
+*/
+.Pictures
+{
+padding: 20px;
+}
+.PictureOne
+{
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  height: 450px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 60px;
+}
+.pic
+{
+  top: -15px;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+}
+.pic img
+{
+  height: 450px;
+  width: 660px;
+  display: block;
+  object-fit: cover;
+}
+.PictureTwo
+{
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  height: 450px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 60px;
+}
+.pictwo
+{
+  top: -15px;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left: initial;
+  right: 0;
+}
+.pictwo img{
+  height: 450px;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.PictureThree
+{
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  height: 450px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 60px;
+}
+.picthree
+{
+  top: -15px;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+}
+.picthree img
+{
+  height: 450px;
+  width: 660px;
+  display: block;
+  object-fit: cover;
+}
+/*
+**************
+*link
+**************
+*/
+.morework
+{
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}
+.morework a
+{
+  color: #8ad124;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 1.12px;
+}
+/*
+**************
+*main two
+**************
+*/
+.grayblock
+{
+background-color: #f6f6f6;
+}
+.leftnav
+{
+  padding-top: 58px;
+  width: 50%;
+  float: left;
+  background-color: #f6f6f6;
+}
+.blacktitel
+{
+  position: relative;
+}
+.whatwedo-title
+{
+  color: #000;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1.92px;
+}
+.answer
+{
+  position: relative;
+  padding: 58px 20px;
+}
+.answer p
+{
+  color: #c4c4c4;
+  text-align: center;
+  font-family:  "Gotham SSm A", "Gotham SSm B";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  position: relative;
+}
+.more
+{
+  position: relative;
+}
+.morelink
+{
+  color: #8ad124;
+  display: inline-block;
+  font-family:sans-serif;  
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+.rightnav
+{
+  display: block; 
+  position: relative;
+}
+.robotlink
+{
+  position: relative;
+  top: 40px;
+  width: 49%;
+}
+/*
+**************
+*Company
+**************
+*/
+.company
+{
+ padding-top: 130px;
+}
+.goodcompany
+{
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  font-family: "DinotCondBold", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0px auto 15px;
+  max-width: 1000px;
+}
+.company p
+{
+  color: #c4c4c4;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  max-width: 630px;
+ margin: 0 auto;
+ max-width: 630px;
+}
+/*
+**************
+*insight
+**************
+*/
+.insight
+{
+  padding-top: 130px;
+}
+.insight h2
+{
+ text-transform: uppercase;
+  color: black;
+  text-align: center;
+  font-family: "DinotCondBold", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0px auto 15px;
+  max-width: 1000px;
+}
+.insight p
+{
+ color: #c4c4c4;
+ font-family: "Gotham SSm A", "Gotham SSm B";
+ text-align: center;
+ font-size: 15px;
+ line-height: 25px;
+ max-width: 630px;
+ margin: 0 auto;
+ max-width: 630px;
+}
+/*
+**************
+*secondmenu
+**************
+*/
+.secondmenu
+{
+ margin: 45px 0px;
+ text-align: center;
+}
+.secondmenu-item 
+{
+ color: #c4c4c4;
+ display: inline;
+ font-family: sans-serif;
+ font-size:14px;
+ line-height: 28px;
+ letter-spacing: 1.12px;
+ text-decoration: none;
+ text-transform: uppercase;
+ cursor: pointer;
+}
+.secondmenu a:hover
+{
+  text-decoration: none;
+  color:#8ad124;
+}
+/*
+**************
+*img-link
+**************
+*/
+.img-link table, th
+{
+padding: 20px;
+border :1px solid block;
+
+}
+.imglink
+{
+ color:#c4c4c4;
+ font-size: 11px;
+ line-height: 16px;
+ font-family: DinotCondBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ letter-spacing: 1.76px;
+ margin-bottom: 3px;
+ margin-left: 80px;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+.linktoimg
+{
+ color:black;
+ font-size: 8px;
+ line-height: 16px;
+ font-family: "Gotham SSm A", "Gotham SSm B";
+ font-weight: 600;
+ letter-spacing: 1.76px;
+ margin-bottom: 3px;
+ margin-left: 80px;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+.img7
+{
+  padding-left: 50px;
+}
+/*
+**************
+*insight link
+**************
+*/
+.insights-title
+{
+ margin-top: 30px;
+ padding: 0 0 53px;
+ text-align: center;
+}
+.middel-title 
+{
+ color: #8ad124;
+ font-family: "DinotCondBold", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+ text-transform: uppercase;
+ text-decoration: underline;
+ text-align: center;
+ font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 1.12px;
+ display: inline-block;
+}
+/*
+**************
+*footter
+**************
+*/
+.footer
+{
+  background-color: #8ad124;
+  background-image: linear-gradient;
+  position: relative;
+}
+.footer-inner 
+{
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 50px 20px;
+  position: relative;
+}
+.partner
+ {
+  background: #fff;
+  margin: 0 auto 35px;
+  max-width: 927px;
+  padding: 25px 25px;
+  text-align: center;
+  width: 100%;
+}
+.partner h2
+{
+ text-transform: uppercase;
+  color: black;
+  text-align: center;
+  font-family: "DinotCondBold", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0px auto 15px;
+  max-width: 1000px;
+}
+.partner p
+{
+  color: #c4c4c4;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  max-width: 630px;
+ margin: 0 auto;
+ max-width: 630px;
+}
+.touch
+ {
+  color: #8ad124;
+  display: inline-block;
+  font: 15px/15px "DinotCondBold", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  letter-spacing: 1.2px;
+  margin: 45px 0 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footer-links
+{ 
+  margin: 32px auto 40px;
+}
+.email
+{ 
+  padding: 100px; 
+}
+.mail
+{ 
+  color: #fff;
+  margin-right: 60px;
+  font: 15px/39px "DinotCondBold", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  letter-spacing: 1.2px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  align-items: center;
+}
+.tel
+ { 
+  color: #fff;
+  margin-right: 60px;
+  font: 15px/39px "DinotCondBold", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  letter-spacing: 1.2px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  align-items: center;
+}
+.form
+{
+  display: block;
+}
+.footer-form
+{
+  position: relative;
+  padding-left: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 254px;
+}
+.form-email 
+{
+    background: #90d335;
+    border: 0 none;
+    color: #fff;
+    font: 15px/40px "DinotCondBold", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    height: 40px;
+    letter-spacing: 1.2px;
+    outline: none;
+    padding: 0 50px 0 20px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.copy
+{
+  padding: 21px 0 44px;
+  text-align: center;
+}
+a 
+{
+  background-color: transparent;
+}
+.quote
+{
+  padding: 49px 0 45px;
+}
+.quote-text
+{
+  color: #fff;
+  font-family: 
+  font-size:14px;
+  line-height: 22px;
+  letter-spacing: 0.84px;
+  margin: 0 auto;
+  max-width: 760px;
+  text-align: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+table, th
+{
+ padding: 50px;
+ border :1px solid block;
+}
+hr
+{
+  background: #e9ecf1;
+  height: 0.5px;
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+.author 
+{
+  color: #fff;
+  font: 10px/15px "DinotCondBold", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  letter-spacing: 1.6px;
+  margin: 45px auto 0;
+  max-width: 840px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.face
+{
+  margin: 20px 10px 10px 400px;
+  width: 737px;
+}
+.soda img
+{
+  display: inline-block;
+  margin: 0 auto;
+  width: 138px;
+}
+.footer__copyright 
+{
+  color: #fff;
+  font: 13px/20px "DinotCondBold", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  letter-spacing: 2.08px;
+  text-align: center;
+  text-transform: uppercase;
+}
+

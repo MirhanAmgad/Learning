@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+}
+.Wrap{
+	width:400px;
+	height: 400px;
+	margin: auto;
+	background: yellow;
+	position: relative;
+	top: 20px;
+	
+}
+.Box{
+	width:200px;
+	height: 200px;
+	margin: auto;
+	background: red;
+	position: absolute;
+	top: 70px;
+	left: 0px;
+
+}
