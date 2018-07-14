@@ -49,12 +49,12 @@ nav li
   font-style: normal;
 	text-transform: uppercase;
 	color: black;
-	font-size: 30px ;
+	font-size: 20px ;
   text-align: center;
 	letter-spacing: -1px;
   position: relative;
-  top: 0px;
-  left: 650px;
+  top: -5px;
+  left: 800px;
   margin-right: 10px;
   line-height: 59px;
 }
@@ -455,7 +455,7 @@ border :1px solid block;
 }
 .img7
 {
-  padding-left: 50px;
+  padding-left: 83px;
 }
 /*
 **************
@@ -546,44 +546,51 @@ border :1px solid block;
 }
 .email
 { 
-  padding: 100px; 
+  display: block;
 }
 .mail
 { 
+  display: block;
   color: #fff;
-  margin-right: 60px;
   font: 15px/39px "DinotCondBold", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   letter-spacing: 1.2px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  align-items: center;
+  
 }
 .tel
  { 
+  margin-right: 0px;
+  display: block;
   color: #fff;
-  margin-right: 60px;
   font: 15px/39px "DinotCondBold", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   letter-spacing: 1.2px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  align-items: center;
+  
 }
+
 .form
 {
   display: block;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+  top:-9px;
+  
 }
 .footer-form
 {
-  position: relative;
-  padding-left: 600px;
-  margin: 0 auto;
-  overflow: hidden;
-  width: 254px;
+  
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 254px;
 }
-.form-email 
-{
+.form_email
+ 
     background: #90d335;
     border: 0 none;
     color: #fff;
@@ -595,6 +602,36 @@ border :1px solid block;
     text-transform: uppercase;
     width: 100%;
 }
+.form-submit
+{
+  {
+    background: url(../../assets/img/icon.arrow.svg) no-repeat 5px center transparent;
+    background-size: 26px 8px;
+    border: 0 none;
+    color: #fff;
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-indent: -9999px;
+    transition: right 400ms ease;
+    top: 0;
+    width: 50px;
+}
+}
+/*.form-email 
+{
+    background: #90d335;
+    border: 0 none;
+    color: #fff;
+    font: 15px/40px "DinotCondBold", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    height: 40px;
+    letter-spacing: 1.2px;
+    outline: none;
+    padding: 0 50px 0 20px;
+    text-transform: uppercase;
+    width: 100%;
+}*/
 .copy
 {
   padding: 21px 0 44px;
@@ -664,3 +701,22 @@ hr
   text-transform: uppercase;
 }
 
+
+.logo {
+    
+   display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 150px;
+     display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-gap: 20px;
+  
+}
+
+.logo-grid {
+    height: 100px;
+    position: relative;
+    text-align: center;
+    width: 50%;
+}

@@ -81,8 +81,8 @@ header a:hover{
 /* Showcase */
 #showcase {
   min-height: 400px;
-  background: url('http://www.mvminfotech.com/blog/wp-content/uploads/1920x1200-3.jpg.png') no-repeat ;
- text-align: center;
+  background: url('http://www.mvminfotech.com/blog/wp-content/uploads/1920x1200-3.jpg.png') no-repeat 0 -400px;
+  text-align: center;
  color: #ffffff;
 }
 
